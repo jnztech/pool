@@ -1,0 +1,20 @@
+{
+	"coin": "RISE",
+	"node": "http://localhost:5555",
+	"nodepay": "http://localhost:5555",
+	"pubkey": "<pubkey on explorer wallet info>",
+	"percentage": 100,
+	"logfile": "poollogs.json",
+	"minpayout": 1,
+	"secret": "<secret one>",
+	"secondsecret": "<secret two>",
+	"feededuct": true,
+    "donations": {
+    },
+    "donationspercentage": {
+        "8968951392652885943R": 100
+        },
+        "private": true,
+        "whitelist": ["8968951392652885943R"],
+        "skip": []
+}

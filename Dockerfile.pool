@@ -18,8 +18,8 @@ WORKDIR /home/rise/rise-pool/dpos-api-fallback
 RUN adduser -D rise
 USER rise
 
-COPY --chown=rise ../rise-pool/dpos-api-fallback/package.json /home/rise/rise-pool/dpos-api-fallback/package.json
-COPY --chown=rise ../rise-pool/dpos-api-fallback/package-lock.json /home/rise/rise-pool/dpos-api-fallback/package-lock.json
+COPY --chown=rise ./dpos-api-fallback/package.json /home/rise/rise-pool/dpos-api-fallback/package.json
+COPY --chown=rise ./rise-pool/dpos-api-fallback/package-lock.json /home/rise/rise-pool/dpos-api-fallback/package-lock.json
 
 RUN npm install
 
